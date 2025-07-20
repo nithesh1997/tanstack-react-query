@@ -10,6 +10,7 @@ import PaginatedQueries from "./components/PaginationQueries";
 import InfiniteQueries from "./components/InfiniteQueries";
 import InfiniteQueriesScroll from "./components/InfiniteQueriesScroll";
 import MultiplePostsFetcher from "./components/MultiplePostsFetcher";
+import DualFetchExample from "./components/DualFetchExample";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/regular">Regular Fetch</NavLink>
         <NavLink to="/react-query-fetch">React Query Fetch</NavLink>
+        <NavLink to="/react-query-dual-fetch">React Query Dual Fetch</NavLink>
         <NavLink to="/react-query-fetch-click">Load Data on Click</NavLink>
         <NavLink to="/react-paginated">Pagination Data</NavLink>
         <NavLink to="/react-infinite">Infinite Load</NavLink>
@@ -31,6 +33,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/regular" element={<RegularFetch />} />
         <Route path="/react-query-fetch" element={<ReactQueryFetch />} />
+        <Route path="/react-query-dual-fetch" element={<DualFetchExample />} />
         <Route path="/react-query-fetch/:postId" element={<ReactQueryById />} />
         <Route path="/react-query-fetch-click" element={<ReactQueryFetchByClick />} />
         <Route path="/react-paginated" element={<PaginatedQueries />} />

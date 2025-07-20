@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Introduction to Fullstack Development",
+      "body": "Exploring the roles of frontend and backend in web applications."
+    },
+    {
+      "id": "2",
+      "title": "Getting Started with HTML and CSS",
+      "body": "The foundation of web development for beginners."
+    },
+    {
+      "id": "3",
+      "title": "JavaScript Essentials for Fullstack Developers",
+      "body": "Mastering the core language of the web."
+    },
+    {
+      "id": "4",
+      "title": "Understanding RESTful APIs",
+      "body": "Building and consuming APIs in fullstack projects."
+    },
+    {
+      "id": "5",
+      "title": "Top Frameworks for Fullstack Development in 2025",
+      "body": "A look at the most popular and powerful frameworks for modern web apps."
+    }
+  ],
+   "items": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "color": "Red",
+      "vitamin": "Vitamin C"
+    },
+    {
+      "id": "2",
+      "name": "Banana",
+      "color": "Yellow",
+      "vitamin": "Vitamin B6"
+    },
+    {
+      "id": "3",
+      "name": "Carrot",
+      "color": "Orange",
+      "vitamin": "Vitamin A"
+    },
+    {
+      "id": "4",
+      "name": "Tomato",
+      "color": "Red",
+      "vitamin": "Vitamin C"
+    }
+  ],
+  "users":[]
+}

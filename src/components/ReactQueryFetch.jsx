@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
+import { Link } from "react-router-dom";
 
 
 async function fetchPosts() {
@@ -29,9 +30,11 @@ const ReactQueryFetch = () => {
       <h2>ReactQueryFetch - Posts</h2>
       <ul>
         {data.map((post) => (
-          <li key={post.id}>
+          <li>
+          <Link key={post.id} to={`/react-query-fetch/${post.id}`}>
             <strong>{post.title}</strong>
             <p>{post.body}</p>
+          </Link>
           </li>
         ))}
       </ul>

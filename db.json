@@ -628,5 +628,24 @@
       "vitamin": "Vitamin K"
     }
   ],
-  "users": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "email": "alice.johnson@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "username": "bobsmith",
+      "email": "bob.smith@example.com"
+    },
+    {
+      "name": "Nithesh ",
+      "email": "nitheshroshan007@gmail.com",
+      "username": "nithesh1997",
+      "id": 842.7760378407594
+    }
+  ]
 }

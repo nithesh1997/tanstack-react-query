@@ -7,6 +7,7 @@ import "./App.css";
 import ReactQueryFetchByClick from "./components/ReactQueryFetchByClick";
 import ReactQueryById from "./components/ReactQueryFetchById";
 import PaginatedQueries from "./components/PaginationQueries";
+import InfiniteQueries from "./components/InfiniteQueries";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <NavLink to="/react-query-fetch">React Query Fetch</NavLink>
         <NavLink to="/react-query-fetch-click">Load Data on Click</NavLink>
         <NavLink to="/react-paginated">Pagination Data</NavLink>
+        <NavLink to="/react-infinite">Infinite Scroll</NavLink>
       </nav>
 
       <Routes>
@@ -28,6 +30,7 @@ function App() {
         <Route path="/react-query-fetch/:postId" element={<ReactQueryById />} />
         <Route path="/react-query-fetch-click" element={<ReactQueryFetchByClick />} />
         <Route path="/react-paginated" element={<PaginatedQueries />} />
+        <Route path="/react-infinite" element={<InfiniteQueries />} />
       </Routes>
     </BrowserRouter>
   );

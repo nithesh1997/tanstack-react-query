@@ -1,14 +1,25 @@
-import { useState } from 'react'
-import './App.css'
+
+import { BrowserRouter, NavLink, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import RegularFetch from "./components/RegularFetch";
+import "./App.css";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-     App
-    </>
-  )
+    <BrowserRouter>
+      <nav className="navbar">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/regular">Regular Fetch</NavLink>
+      </nav>
+
+      <Routes>
+        {/* Example Routes (Replace with your actual components) */}
+        <Route path="/" element={<Home />} />
+        <Route path="/regular" element={<RegularFetch />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
